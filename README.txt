@@ -1,3 +1,2 @@
 "Hello, Git"
-Hello, buddy!
-This is a change made locally!
+This is a change from github directly!
