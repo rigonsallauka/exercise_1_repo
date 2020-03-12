@@ -3,3 +3,4 @@ Change in file_x from master branch.
 Whereas this is a change from development branch for the purposes of  exercise 3.2 that will be the final version to be pushed to remote master.
 
 This change is done in master branch for the exercise 3.3 and will not be lost in the final version, in contrary will be merged with ...
+... this change done in the development branch.
