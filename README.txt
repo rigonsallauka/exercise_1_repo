@@ -1,5 +1,3 @@
 "Hello, Git"
 Hello, buddy!
-yoyoyo
-how's it going?
-yay yay yay
+This is a change made locally!
