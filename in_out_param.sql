@@ -9,6 +9,7 @@ END;
 --we execute the procedure
 --notice the difference in the usage of IN and OUT parameters
 DECLARE
+i NUMBER(2) := 0;
 empName VARCHAR2(20);
 j NUMBER(4) :=10;
 CURSOR id_cur IS (SELECT emp_id FROM employee);
@@ -18,5 +19,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('The employee '||empName||' has id '||emp_rec.emp_id);
     DBMS_OUTPUT.PUT_LINE('Changes made locally: '||j);
     j := j+1;
+    DBMS_OUTPUT.PUT_LINE(i);
+    i :=i+1;
   END LOOP;
 END;
